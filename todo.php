@@ -73,7 +73,7 @@ do {
         $answer = trim(fgets(STDIN));
           //if Y do the the following
           if ($answer == 'Y') {
-            $items = array_map('strtolwer',$items);
+            $items = array_map('strtolower',$items);
           }
           // if 'N' do the following
           elseif ($answer == 'N') {
